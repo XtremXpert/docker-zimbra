@@ -19,10 +19,9 @@ ENV OS UBUNTU14_64
 ENV ZIMBRA zcs-8.6.0_GA_1153.UBUNTU14_64.20141215151116
 #ENV ZIMBRA zcs-8.0.8_GA_6184.UBUNTU14_64.20140925165809
 #ENV ZIMBRA zcs-8.0.7_GA_6021.UBUNTU12_64.20140408123908
-
-https://files.zimbra.com/downloads/8.6.0_GA/zcs-8.6.0_GA_1153.UBUNTU14_64.20141215151116.tgz
-
+#https://files.zimbra.com/downloads/8.6.0_GA/zcs-8.6.0_GA_1153.UBUNTU14_64.20141215151116.tgz
 #zcs-8.6.0_GA_1153.UBUNTU14_64.20141215151116
+
 RUN wget http://files2.zimbra.com/downloads/8.6.0_GA/$ZIMBRA.tgz
 #RUN wget http://files2.zimbra.com/downloads/8.0.7_GA/$ZIMBRA.tgz
 #RUN wget  http://10.10.130.35/$ZIMBRA.tgz
